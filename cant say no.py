@@ -26,7 +26,7 @@ canvas = Canvas(win)
 canvas.place(x = 150, y = 150)
 image = ImageTk.PhotoImage(pilImage)
 canvas.create_image(0, 0, anchor=NW, image=image)
-
+Label(win, text = "Will You Be my Valentine?? <3").place(x = 150, y = 370)
 Button(win, text= "YES", command=yes).place(x = 150, y = 400)
 cb = Button(win, text= "NO", command=no)
 cb.place(x = 400, y = 400)
